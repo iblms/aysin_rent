@@ -3,8 +3,8 @@
 
 <body>
     <nav>
-        <div>
-            <img src="/src/images/logo.svg" alt="">
+        <div class="logo">
+            <img class="image-clignote" src="<?=PROJECT_FOLDER ?>/src/images/logo.svg" alt="">
         </div>
 
         <div class="burger">
@@ -18,3 +18,6 @@
         </div>
     </nav>
 </body>
+
+<?php $navbar = ob_get_clean(); ?>
+
